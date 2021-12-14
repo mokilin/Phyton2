@@ -1,0 +1,32 @@
+CREACION  Y ACTIVACION DE ENTORNO VIRTUAL
+
+Pararse en la ruta/directorio elegida
+crear carpeta con-----> mkdir proyectoejemplo
+entrar al directorio creado --->cd proyectoejemplo
+inicializar git ---> /proyectoejemplo git init
+crear el entorno---->/proyectoejemplo (master) python.3 -m venv venv (este ultimo es un nombre para el entorno virtual, podria ser env)
+(hagamos ls para ver la carpeta venv/ que creamos)
+
+hagamos ls a venv para ver:
+include/ Lib/ pyvenv.cfg Scripts/ (nos interesa Scripts xq ahi esta el comdando para activar el entorno v)
+
+activamos el entorno v ---> source venv/bin/activate
+
+/proyectoejemplo(master) (venv) --- esto nos avisa que tenemos un entorno con un python para este entorno
+
+para desactivar el entorno ---> deactivate
+
+------------
+Para crear un alias en linux/mac se utiliza el comando alias y 
+la sintaxis es la siguiente:
+
+alias myalias = "comando"
+Para el entorno virtual sería:
+
+alias myvenv=“source venv/bin/activate"
+
+
+
+
+
+
