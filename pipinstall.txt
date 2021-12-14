@@ -4,7 +4,7 @@ package installer for python
 pip es un módulo que a su vez sirve para instalar módulos que necesitaré en un entorno determinado,
 ya que no todos los módulos vienen instalados de por sí
 
-algunos de esos modulos son:request, beautifulsoup (webscrapping), pandas y numpy (ciencia de datos)
+algunos de esos modulos son:requests, beautifulsoup (webscrapping), pandas y numpy (ciencia de datos)
 pytest (para testing)
 
 como instalar módulos con pip?
