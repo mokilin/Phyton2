@@ -1,0 +1,20 @@
+INSTALACION DE DEPENDENCIAS CON PIP
+package installer for python
+
+pip es un módulo que a su vez sirve para instalar módulos que necesitaré en un entorno determinado,
+ya que no todos los módulos vienen instalados de por sí
+
+algunos de esos modulos son:request, beautifulsoup (webscrapping), pandas y numpy (ciencia de datos)
+pytest (para testing)
+
+como instalar módulos con pip?
+
+pararse en la carpeta y activar el entorno, luego ejecutar ---> pip install pandas
+(Se desplega la instalacion)
+
+ejecutemos pip freeze para ver la lista de lo instalado
+
+ejecutar ---> pip freeze > requirements.txt (esto guarda el contenido en un txt para que luego alguien pueda ver los requerimientos a usar, en caso de querer ser parte)
+
+ejecutemos ls para corroborar que se ha creado requirements.txt
+al ver ese archivo, ejecutemos cat requirements.txt para corroborar su contenido :)
