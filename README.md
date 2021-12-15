@@ -1,2 +1,3 @@
 # Phyton2
-curso Phyton2 apuntes
+curso Phyton2
+apuntes
